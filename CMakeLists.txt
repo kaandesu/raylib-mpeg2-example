@@ -3,7 +3,6 @@ project(MyProject C)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(MPEGS REQUIRED libmpeg2)
 

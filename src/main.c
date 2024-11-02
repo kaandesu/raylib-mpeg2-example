@@ -12,7 +12,7 @@
 #define WIDTH 700
 #define HEIGHT 500
 #define BUFFER_SIZE 4096
-#define VID "./test.mpg"
+#define VID "data/test.mpg"
 
 int main(void) {
   InitWindow(WIDTH, HEIGHT, "raylib example - basic template");
